@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+form {
+  margin: 20px auto;
+  padding: 15px;
+  background: white;
+  width: 300px;
+  border-radius: 8px;
+}
+
+input, select, button {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 90%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.grid a {
+  background: #007bff;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: #333;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  }
