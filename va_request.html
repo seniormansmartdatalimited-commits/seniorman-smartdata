@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Account Request</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Request Account Number</h2>
+  <form method="POST" action="/va_request" enctype="multipart/form-data">
+    <input type="text" name="identity_number" placeholder="National ID / BVN" required><br>
+    <label>Upload Selfie:</label>
+    <input type="file" name="selfie" accept="image/*" required><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
