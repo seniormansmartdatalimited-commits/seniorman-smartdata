@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup - Seniorman Smart Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Signup</h2>
+  <form method="POST" action="/signup">
+    <input type="text" name="name" placeholder="Full Name" required><br>
+    <input type="email" name="email" placeholder="Email" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <select name="country" required>
+      <option value="Nigeria">Nigeria</option>
+      <option value="Ghana">Ghana</option>
+      <option value="Cameroon">Cameroon</option>
+      <option value="Chad">Chad</option>
+      <option value="Niger">Niger</option>
+      <option value="Benin">Benin</option>
+    </select><br>
+    <button type="submit">Signup</button>
+  </form>
+  <p>Already registered? <a href="/">Login</a></p>
+</body>
+</html>
